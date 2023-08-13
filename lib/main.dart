@@ -105,7 +105,7 @@ Page resource error:
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
-      backgroundColor: Colors.green,
+      backgroundColor: Colors.white,
       body: WebViewWidget(controller: _controller),
     ));
   }
