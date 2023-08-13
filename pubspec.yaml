@@ -1,0 +1,33 @@
+name: flutter_3_webview
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.2.2
+  path_provider: ^2.1.0
+  webview_flutter_android: ^3.9.3
+  webview_flutter_wkwebview: ^3.7.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.13.1"
+  flutter_native_splash: "^2.3.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: assets/icon/fg.png
+  adaptive_icon_background: assets/icon/shamna.png
+  adaptive_icon_foreground: assets/icon/fg.png
+  min_sdk_android: 19 # android min sdk min:16, default 21
+
+flutter:
+  uses-material-design: true
